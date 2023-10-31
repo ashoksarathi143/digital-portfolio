@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="website icon" href="images/Portfolio-PNG-Photos.png">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="script" href="script.js">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <a href=""> Ashok</a>
+        </div>
+        <div class="nav">      
+            <a href="">Home</a>
+            <a href="">About Me</a>
+            <a href="">Skills</a>
+            <a href="">Projects</a>
+            <a href="">Contact</a>
+        </div>
+
+    </header>
+    <div class="container">
+        <div class="profile"> </div>
+       
+        <div class="detail">
+            <h2>Hi, I'm <span>Ashok,</span> </h2>
+            <p> <span>Frontend Developer</span>  From Chennai </p>
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, quisquam eaque laborum consequatur debitis a velit doloremque doloribus? Ipsum, nostrum.</div>
+        </div>
+        <div class="download">
+            <button class="btn-1">Download Resume</button>
+            <button class="btn-2">Contact Me</button>
+        </div>
+    </div>
+
+    <div class="about">
+        <div class="profile">
+            <img src="images/profile.jpg" alt="profile">
+        </div>
+        <div class="inner_about">
+            <h1>About Me</h1>
+            <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, iusto tenetur aspernatur reiciendis odio fugiat esse ea quia non inventore. Odio, doloribus similique necessitatibus impedit corporis autem perspiciatis nihil dolorem quam.  debitis quis ea ad odio fugit!</p>
+            
+            <div class="aboutme">
+                <div class="box">
+                    <h2>Education</h2>
+                    <p>➠ BCA Completed From Annamalai University</p>
+                </div>
+                
+                <div class="box">
+                    <h2>Exprience</h2>
+                    <p>➠ WebDevelopment internship Completed at ICT Academy</p>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+   
+    <hr>
+    <div class="skill">
+
+        <div class="profile">
+            <img src="images/Front-end-image.png" alt="skill">
+        </div>
+        
+        <div class="inner_skill">
+            <h1>Skills</h1>
+            <p>Lorem ipsum mpedit corporis autem  dolorem quam. Nostrum laboriosam sint explicabo veritatis sed aspernatur illo sunt cumque fuga eaque. Voluptate voluptas deserunt non vitae. Illo distinctio fuga similique porro explicabo debitis quis ea ad odio fugit!</p>
+            
+            <div class="frontend">
+                <ul>
+                    <li>➠ HTML  </li>
+                    <li>➠ CSS </li>
+                    <li>➠ JavaScript</li>
+                    <li>➠ Bootstrstrap </li>
+                    <li>➠ React </li>
+                    <li>➠ Git & GitUp </li>
+                </ul>
+            </div>
+        
+            <div class="addskill">
+                <h3>Additional Skills</h3>
+                <ul>
+                    <li>➠ Canva</li>
+                    <li>➠ Photoshop</li>
+                </ul>
+            </div>
+            
+        </div>
+    </div>
+    <hr>
+
+    <div class="Projects">
+        <h1>Projects</h1>
+        <h2>E-Learning Website <i class='bx bxs-book-reader'></i></h2>
+        <p> E-learning is a Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae dignissimos adipisci sequi quo numquam non sunt corrupti temporibus nobis reprehenderit, placeat autem accusantium at, aliquid laborum molestias! Sed similique at iusto eveniet voluptatibus corporis. Sit cupiditate libero dolorum porro eum repellendus quas delectus, quod odio ipsum? Facere non, ipsum enim explicabo distinctio aspernatur consequuntur excepturi neque modi maiores. Asperiores quos impedit illum neque atque. Repellendus amet natus facere quidem iure, mollitia laudantium, pariatur itaque voluptatum cupiditate maxime! Perferendis magnam beatae numquam ullam laborum autem tempore quos, inventore illo enim atque harum ipsum! Excepturi alias neque tempora quidem eveniet doloribus sunt!</p>
+        <img src="images/Project1.png" alt="">
+        <div class="link">
+            <a href="Projects/elearning.html" target="_blank">Visite Website ☜</a>
+        </div>
+
+    </div>
+
+    <hr>
+
+    
+    <form id="portfolioForm">
+        <h1>Contact Me</h1>
+
+        <div class="input_detail">
+
+        
+            <div class="input_group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <p id="nameError" class="error"></p>
+            </div>
+            
+            <div class="input_group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <p id="emailError" class="error"></p>
+            </div>
+
+            <div class="input_group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <p id="messageError" class="error"></p>
+            </div>
+
+            <input type="submit" value="Submit" class="btn">
+        </div>
+    </form>
+
+    <div id="successMessage" class="hidden">
+        <p>Your message has been sent successfully!</p>
+    </div>
+    <footer>
+        <p>copyrights@ashok</p>
+    </footer>
+
+</body>
+</html>
